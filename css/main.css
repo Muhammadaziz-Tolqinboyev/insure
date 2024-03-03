@@ -1,73 +1,266 @@
+/* Karla 400 700 DM Serif 400 */
+
 * {
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
+	font-family: "Karla", "Arial", sans-serif;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+.container {
+	width: 1150px;
+	margin-inline: auto;
+	padding-inline: 20px;
+}
+
+.unstyled-list {
+	margin-block: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.site-header {
+	padding-block: 19.6px;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-link {
+	text-decoration-line: none;
+}
+
+.navbar-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.header-list {
+	display: flex;
+}
+
+.header-item {
+	margin-right: 25px;
 }
 
 .header-item-link {
+	font-size: 13px;
+	font-weight: 700;
 	color: #837d88;
+	text-decoration-line: none;
 }
 
 .header-link {
+	display: block;
+	padding: 12px 29px;
+	font-size: 13px;
+	font-weight: 700;
 	color: #2c2830;
+	border: 1.5px solid #2c2830;
+	text-decoration-line: none;
 }
 
 .hero {
+	padding-block: 105px 127px;
 	background-color: #2d2641;
+}
+
+.hero-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-title-wrapper {
+	width: 540px;
+}
+
+.hero-line {
+	display: block;
+	width: 150px;
+	height: 1px;
+	margin-block-end: 63px;
+	background-color: #fff;
 }
 
 .hero-title {
+	margin-block: 0 16px;
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-weight: 400;
 	font-size: 72px;
 	color: #fff;
+	line-height: 64px;
+	letter-spacing: -1px;
 }
 
 .hero-desc {
-	font-size: 16px;
+	margin-block: 0 24px;
 	color: #fff;
+	line-height: 26px;
 }
 
 .hero-link {
+	display: inline-block;
+	padding: 12px 29px;
+	font-weight: 700;
 	font-size: 13px;
 	color: #fff;
+	border: 1.5px solid #fff;
+	text-decoration-line: none;
+}
+
+.different {
+	padding-block: 150px 158px;
+}
+
+.different-line {
+	display: inline-block;
+	width: 150px;
+	height: 1px;
+	margin-block-end: 63px;
+	background-color: #c396c6;
 }
 
 .different-title {
+	margin-block: 0 96px;
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-weight: 400;
 	font-size: 72px;
 	color: #2c2830;
+	line-height: 64px;
+	letter-spacing: -1px;
+}
+
+.different-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.different-item {
+	width: 350px;
+}
+
+.different-item-pic {
+	margin-block-end: 32px;
 }
 
 .different-item-title {
+	margin-block: 0 16px;
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-weight: 400;
 	font-size: 28px;
 	color: #2c2830;
+	letter-spacing: -0.389px;
 }
 
 .different-item-desc {
-	font-size: 16px;
+	font-family: "Karla", "Arial", sans-serif;
+	font-weight: 400;
 	color: #837d88;
+	line-height: 26px;
 }
 
 article {
+	padding-block: 69px;
 	background-color: #2d2641;
 }
 
+.title-wrapper {
+	width: 475px;
+}
+
+.article-title-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .article-title {
+	font-family: "DM Serif Display", "Times New Roman", serif;
+	font-weight: 400;
 	font-size: 56px;
 	color: #fff;
+	line-height: 56px;
+	letter-spacing: -0.778px;
 }
 
 .article-link {
+	display: inline-block;
+	padding: 12px 25px;
+	font-weight: 700;
 	font-size: 13px;
 	color: #fff;
+	border: 1.5px solid #fff;
+	text-decoration-line: none;
 }
 
-strong {
+.site-footer {
+	padding-block: 64px;
+	background-color: #fafafa;
+}
+
+.footer-start-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-block-end: 48px;
+	padding-block-end: 33px;
+	border-bottom: 1px solid #dadada;
+}
+
+.footer-logo-link {
+	text-decoration-line: none;
+}
+
+.footer-list {
+	display: flex;
+	align-items: center;
+}
+
+.footer-item:not(:last-child) {
+	margin-right: 16px;
+}
+
+.social-link {
+	text-decoration-line: none;
+}
+
+.footer-end-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-end-inner {
+	width: 255px;
+}
+
+.footer-strong {
+	display: inline-block;
+	margin-block-end: 36px;
+	font-weight: 700;
 	font-size: 13px;
 	color: #837d88;
+	letter-spacing: 1.5px;
 }
 
+.footer-end-item:not(:last-child) {
+	margin-block-end: 16px;
+} 
+
 .footer-item-link {
+	font-weight: 700;
 	font-size: 13px;
 	color: #2d2641;
+	letter-spacing: 1.5px;
+	text-decoration-line: none;
 }
